@@ -1,0 +1,154 @@
+.section-first {
+  background-image: url(../assets/imgs/pastel_back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-box strong {
+  font-size: 28px;
+  text-align: center;
+}
+
+.text-box p {
+  font-size: 12px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.kakao-btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.kakao-btn {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgb(245, 225, 75);
+  color: rgb(55, 30, 29);
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.kakao-btn:hover {
+  background-color: white;
+}
+
+.kakao-btn img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.town {
+  display: flex;
+  justify-content: center;
+}
+
+.town img {
+  width: 300px;
+  height: 300px;
+}
+
+.section-second {
+  padding: 40px 0;
+}
+
+.title-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title-text h1 {
+  font-size: 34px;
+}
+
+.title-text h2 {
+  margin-bottom: 6px;
+  font-size: 24px;
+}
+
+.bubble-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 30px;
+  background-color: rgb(190, 205, 222);
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.bubble-left,
+.bubble-right {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 70%;
+  line-height: 1.2;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 0.5s ease-in-out;
+}
+
+.bubble-left.visible,
+.bubble-right.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bubble-left {
+  align-self: flex-start;
+}
+
+.bubble-right {
+  align-self: flex-end;
+}
+
+.bubble-left p {
+  text-align: left;
+  font-size: 14px;
+}
+
+.bubble-right p {
+  text-align: right;
+  font-size: 14px;
+}
+
+#align-left {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+.section-third {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.third-text-box {
+  line-height: 1.5;
+  text-align: center;
+}
+
+.third-text-box h1 {
+  font-size: 26px;
+}
+
+.third-text-box p {
+  font-size: 18px;
+}

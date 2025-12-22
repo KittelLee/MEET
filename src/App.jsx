@@ -1,5 +1,17 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+
 function App() {
-  return <div>키텔씨가 열심히 개발중입니다</div>;
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
