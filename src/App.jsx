@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Rule from "./pages/Rule";
+import Room from "./pages/Room";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -24,6 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/rule" element={<Rule />} />
+            <Route path="/room" element={<Room />} />
           </Routes>
 
           <Footer />

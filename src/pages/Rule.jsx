@@ -1,5 +1,5 @@
-import Rule1 from "../assets/imgs/rule1.jpg";
-import Rule2 from "../assets/imgs/rule2.jpg";
+import Rule1 from "../assets/imgs/rule1.jpeg";
+import Rule2 from "../assets/imgs/rule2.jpeg";
 import "../styles/Rule.css";
 
 function Rule() {

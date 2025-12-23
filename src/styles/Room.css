@@ -1,0 +1,44 @@
+.room-wrap {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/imgs/deco.png);
+}
+
+.room-wrap p:first-child {
+  text-align: center;
+  color: red;
+}
+
+.room-top,
+.room-middle,
+.room-bottom {
+  display: flex;
+  margin: 0 auto;
+}
+
+.room-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 190px;
+  height: 200px;
+  margin: 4px;
+}
+
+.room-info:hover {
+  background-color: lightgray;
+}
+
+.room-info a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}
+
+.room-info img {
+  width: 150px;
+  height: 150px;
+  border-radius: 4px;
+}
