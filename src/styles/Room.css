@@ -9,9 +9,7 @@
   color: red;
 }
 
-.room-top,
-.room-middle,
-.room-bottom {
+.room-top {
   display: flex;
   margin: 0 auto;
 }

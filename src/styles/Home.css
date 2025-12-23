@@ -131,24 +131,3 @@
   width: 100%;
   text-align: left;
 }
-
-.section-third {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 50px;
-}
-
-.third-text-box {
-  line-height: 1.5;
-  text-align: center;
-}
-
-.third-text-box h1 {
-  font-size: 26px;
-}
-
-.third-text-box p {
-  font-size: 18px;
-}
