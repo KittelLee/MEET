@@ -31,11 +31,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgreen;
   color: black;
   border-radius: 50%;
   width: 20px;
   height: 20px;
+}
+
+.card-color--active {
+  background-color: lightgreen;
+}
+
+.card-color--ended {
+  background-color: #ff4d4f;
 }
 
 .card-title {
