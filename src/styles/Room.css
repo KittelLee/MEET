@@ -5,8 +5,10 @@
 }
 
 .room-wrap p:first-child {
+  margin-top: 10px;
   text-align: center;
   color: red;
+  font-weight: bold;
 }
 
 .room-top {

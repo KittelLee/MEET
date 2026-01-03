@@ -1,0 +1,97 @@
+:root {
+  --brand-50: #eaf6ff;
+  --brand-100: #cfeaff;
+  --brand-500: #3aa8ff;
+
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.calcAddModal-wrap {
+  background: linear-gradient(
+    135deg,
+    var(--brand-50) 0%,
+    var(--brand-100) 100%
+  );
+  width: 320px;
+  max-width: 90vw;
+  min-height: 420px;
+  padding: 4px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.calcAddModal-wrap h2 {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-field label {
+  margin-left: 2px;
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.form-field input,
+.form-field select {
+  width: 100%;
+  font-size: 0.95rem;
+  padding: 6px 8px;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.form-field input[type="datetime-local"] {
+  height: 34px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.form-field input:disabled {
+  background-color: whitesmoke;
+  cursor: not-allowed;
+}
+
+.form-field input:disabled::placeholder {
+  color: var(--gray-300);
+}
+
+.form-button {
+  margin: 8px 2px 4px 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-button button {
+  width: 100%;
+  height: 36px;
+  font-size: 1rem;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: var(--brand-500);
+  color: #fff;
+  transition: opacity 0.15s;
+}
+
+.form-button button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

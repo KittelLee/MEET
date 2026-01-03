@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Rule from "./pages/Rule";
 import Room from "./pages/Room";
+import Calc from "./pages/Calc";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -26,6 +27,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/rule" element={<Rule />} />
             <Route path="/room" element={<Room />} />
+            <Route path="/calc" element={<Calc />} />
           </Routes>
 
           <Footer />
